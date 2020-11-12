@@ -380,7 +380,7 @@ custom_menu.auto_calibrate.command       	M280_S10.6|G28|M280_S3|M190_S80|G32|G3
 
 ## Network settings
 # See http://smoothieware.org/network
-network.enable                               false            # Enable the ethernet network services
+network.enable                               true            # Enable the ethernet network services
 network.webserver.enable                     true             # Enable the webserver
 network.telnet.enable                        true             # Enable the telnet server
 #network.ip_address                           auto             #auto # Use dhcp to get ip address
