@@ -61,7 +61,7 @@ gamma_max_rate                               40000.0          # Maximum rate in 
 ## Extruder module configuration
 # See http://smoothieware.org/extruder
 extruder.hotend.enable                          true          # Whether to activate the extruder module at all. All configuration is ignored if false
-extruder.hotend.steps_per_mm                    790         #784 calibrated 800 original # Steps per mm for extruder stepper
+extruder.hotend.steps_per_mm                    926.1585      #800 original # Steps per mm for extruder stepper
 extruder.hotend.default_feed_rate               720           # Default rate ( mm/minute ) for moves where only the extruder moves
 extruder.hotend.acceleration                    1500           # Acceleration for the stepper motor mm/sec²
 extruder.hotend.max_speed                       50            # Maximum speed in mm/s
@@ -171,9 +171,9 @@ temperature_control.bed.set_and_wait_m_code  190              # M-code to set-an
 temperature_control.bed.designator           B                # Designator letter for this module
 temperature_control.bed.max_temp         150              # Set maximum temperature - Will prevent heating above 150 by default
 temperature_control.bed.min_temp         0                # Set minimum temperature - Will prevent heating below 0 by default
-temperature_control.bed.p_factor         241.2             # permanently set the PID values after an auto pid
-temperature_control.bed.i_factor         20.140
-temperature_control.bed.d_factor         722              
+temperature_control.bed.p_factor         152.2 #241.2             # permanently set the PID values after an auto pid
+temperature_control.bed.i_factor         3.756 #20.140
+temperature_control.bed.d_factor         1542 #722               
 temperature_control.bed.max_pwm          255               # max pwm, 64 is a good value if driving a 12v resistor with 24v.
 temperature_control.bed.runaway_heating_timeout      1000   # max is 2040 seconds, how long it can take to heat up
 temperature_control.bed.runaway_cooling_timeout      1500   # max is 2040 seconds, how long it can take to cool down if temp is set lower

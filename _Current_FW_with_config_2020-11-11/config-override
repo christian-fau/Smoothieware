@@ -14,7 +14,7 @@ M665 L397.1900 R157.0741
 ;Digipot Motor currents:
 M907 X1.40000 Y1.40000 Z1.40000 A1.30000 ;X1.50000 Y1.50000 Z1.50000 A1.30000 
 ;E Steps per mm:
-M92 E784.0000 P57988
+M92 E926.1585 P57988
 ;E Filament diameter:
 M200 D0.0000 P57988
 ;E retract length, feedrate:
@@ -28,7 +28,7 @@ M203 E50.0000 P57988
 ;PID settings, i_max, max_pwm:
 M301 S0 P47.4000 I4.8390 D116.0000 X255.0000 Y255
 ;Max temperature setting:
-M143 S0 P300.0000
+M143 S0 P290.0000
 ;PID settings, i_max, max_pwm:
 M301 S1 P241.2000 I20.1400 D722.0000 X255.0000 Y255
 ;Max temperature setting:
